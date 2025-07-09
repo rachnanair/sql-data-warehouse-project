@@ -3,7 +3,7 @@
 Welcome to the Data Warehouse and Analytics Project repository! 🚀
 This project presents a complete data warehousing solution, following industry best practices from raw data ingestion to business-ready data modeling. This project integrates CRM and ERP datasets into a centralized data platform following a layered architecture: Bronze, Silver, and Gold.
 
-### 🎯 Objectives
+ ## 🎯 Objectives
 
 - Integrate CRM and ERP datasets into a centralized data warehouse
 - Build a layered ETL pipeline using SQL Server and T-SQL stored procedures
@@ -12,7 +12,7 @@ This project presents a complete data warehousing solution, following industry b
 - Maintain traceability and clarity through naming standards and documentation
 - Deliver a modular, maintainable, and scalable data warehousing solution
 
-### 🛠️ Tech Stack
+ ## 🛠️ Tech Stack
 
 - Database: Microsoft SQL Server
 - ETL Development: T-SQL Stored Procedures
@@ -20,7 +20,7 @@ This project presents a complete data warehousing solution, following industry b
 - Tools: SQL Server Management Studio (SSMS), Git
 - Modeling Technique: Star Schema
 
-### 🧱 Layered Architecture
+ ## 🧱 Layered Architecture
 
 🔹 Bronze Layer
 Raw import of source CSV files (CRM and ERP)
@@ -34,17 +34,21 @@ Business rules applied for enriched attribute values
 Final star schema for business consumption
 Includes: dim_customers, dim_products, fact_sales
 
-### 🧩 Key Features
+ ## 🧩 Key Features
 - End-to-End ETL pipeline using Truncate-Insert logic
 - Centralized data cleansing and transformation rules
 - Integrated CRM + ERP model for unified reporting
 - Clear data lineage and naming conventions
 - Ready-to-query views for analytics and BI tools
 
-### ▶️ How to Use
+ ## ▶️ How to Use
 
 - Clone this repository
 - Run SQL scripts in order: Bronze → Silver → Gold
 - Explore the resulting views
 - Run SQL scripts for analytics
 
+ ## 👤 Author
+
+### **Rachna Nair**    
+💼 LinkedIn: www.linkedin.com/in/rachna-nair10/
